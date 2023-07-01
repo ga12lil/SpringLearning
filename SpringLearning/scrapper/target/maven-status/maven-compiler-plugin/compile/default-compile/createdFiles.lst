@@ -1,0 +1,4 @@
+ga12\configuration\ApplicationConfig.class
+META-INF\spring.components
+ga12\ScrapperApplication.class
+META-INF\spring-configuration-metadata.json
