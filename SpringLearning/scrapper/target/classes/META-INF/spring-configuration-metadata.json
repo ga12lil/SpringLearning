@@ -8,7 +8,22 @@
   ],
   "properties": [
     {
-      "name": "app.test",
+      "name": "app.github-api-path",
+      "type": "java.net.URI",
+      "sourceType": "ga12.configuration.ApplicationConfig"
+    },
+    {
+      "name": "app.scheduler-interval",
+      "type": "java.time.Duration",
+      "sourceType": "ga12.configuration.ApplicationConfig"
+    },
+    {
+      "name": "app.stack-exchange-api-path",
+      "type": "java.net.URI",
+      "sourceType": "ga12.configuration.ApplicationConfig"
+    },
+    {
+      "name": "app.stack-overflow-api-version",
       "type": "java.lang.String",
       "sourceType": "ga12.configuration.ApplicationConfig"
     }

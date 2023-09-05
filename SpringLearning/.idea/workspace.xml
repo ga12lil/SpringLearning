@@ -52,12 +52,116 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;1e7a45b426281d614cda51db94621dd3&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ga12.dto.GitHub" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ga12\SpringLearning\SpringLearning\scrapper\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ga12.dto.links" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ScrapperApplication">
+    <configuration name="CommandsTest.listCommandWhenEmpty_shouldReturnSpecialMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ga12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ga12" />
+      <option name="MAIN_CLASS_NAME" value="ga12.CommandsTest" />
+      <option name="METHOD_NAME" value="listCommandWhenEmpty_shouldReturnSpecialMessageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandsTest.listCommandWhenHasElements_thenReturnThem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ga12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ga12" />
+      <option name="MAIN_CLASS_NAME" value="ga12.CommandsTest" />
+      <option name="METHOD_NAME" value="listCommandWhenHasElements_thenReturnThem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MigrationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationsTest.when_ContainerRun_TablesCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MigrationsTest" />
+      <option name="METHOD_NAME" value="when_ContainerRun_TablesCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ga12.BotApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="scrapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ga12.ScrapperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MigrationsTest" />
+        <item itemvalue="JUnit.MigrationsTest.when_ContainerRun_TablesCreate" />
+        <item itemvalue="JUnit.CommandsTest.listCommandWhenHasElements_thenReturnThem" />
+        <item itemvalue="JUnit.CommandsTest.listCommandWhenEmpty_shouldReturnSpecialMessageTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +177,25 @@
       <workItem from="1687979668805" duration="2337000" />
       <workItem from="1688055293785" duration="2654000" />
       <workItem from="1688061345057" duration="321000" />
-      <workItem from="1688215884391" duration="5645000" />
+      <workItem from="1688215884391" duration="6844000" />
+      <workItem from="1689678877496" duration="3277000" />
+      <workItem from="1690010639032" duration="12190000" />
+      <workItem from="1690365763822" duration="1567000" />
+      <workItem from="1690396161777" duration="5537000" />
+      <workItem from="1690460123102" duration="13037000" />
+      <workItem from="1690537381217" duration="1095000" />
+      <workItem from="1690983748640" duration="2239000" />
+      <workItem from="1691058877845" duration="7512000" />
+      <workItem from="1691140622176" duration="1924000" />
+      <workItem from="1691160980516" duration="3381000" />
+      <workItem from="1691164386219" duration="1095000" />
+      <workItem from="1691226421758" duration="2495000" />
+      <workItem from="1691673500771" duration="2304000" />
+      <workItem from="1691676593757" duration="2338000" />
+      <workItem from="1691947972340" duration="3336000" />
+      <workItem from="1692006159621" duration="8075000" />
+      <workItem from="1692706539189" duration="5944000" />
+      <workItem from="1693485405520" duration="81000" />
     </task>
     <servers />
   </component>

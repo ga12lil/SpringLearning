@@ -1,2 +1,14 @@
 ga12.BotApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+ga12.TgBot.Command.HelpCommand=org.springframework.stereotype.Component
+ga12.TgBot.Command.ListCommand=org.springframework.stereotype.Component
+ga12.TgBot.Command.StartCommand=org.springframework.stereotype.Component
+ga12.TgBot.Command.replyCommand.TrackCommand=org.springframework.stereotype.Component
+ga12.TgBot.Command.replyCommand.UntrackCommand=org.springframework.stereotype.Component
+ga12.TgBot.Processors.CommandProcessor=org.springframework.stereotype.Component
+ga12.TgBot.Processors.ReplyCommandProcessor=org.springframework.stereotype.Component
+ga12.TgBot.TelegramUpdatesListener=org.springframework.stereotype.Component
+ga12.TgBot.UpdateProcessorChain=org.springframework.stereotype.Component
 ga12.configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
+ga12.configuration.ClientConfig=org.springframework.stereotype.Component
+ga12.configuration.TelegramBotConfig=org.springframework.stereotype.Component
+ga12.controller.UpdatesController=org.springframework.stereotype.Component

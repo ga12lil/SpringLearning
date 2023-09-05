@@ -1,2 +1,11 @@
 ga12.ScrapperApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
 ga12.configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties
+ga12.configuration.ClientConfiguration=org.springframework.stereotype.Component
+ga12.configuration.SchedulerConfig=org.springframework.stereotype.Component
+ga12.controller.LinksController=org.springframework.stereotype.Component
+ga12.controller.TestGitHubRequest=org.springframework.stereotype.Component
+ga12.controller.TestStackOverflowRequest=org.springframework.stereotype.Component
+ga12.controller.TgChatController=org.springframework.stereotype.Component
+ga12.controller.exceptionhandlers.BadRequestHandler=org.springframework.stereotype.Component
+ga12.repository.jdbc.JdbcChatRepository=org.springframework.stereotype.Component
+ga12.scheduler.LinkUpdaterScheduler=org.springframework.stereotype.Component

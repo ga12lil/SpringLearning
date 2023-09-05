@@ -1,0 +1,8 @@
+Processor\GitHubProcessor.class
+Processor\StackOverflowProcessor.class
+Processor\ParseProcessor.class
+Response\GitHubResponse.class
+Chain\ParseChain.class
+Response\ParseResponse.class
+Response\StackOverflowResponse.class
+LinkParser.class

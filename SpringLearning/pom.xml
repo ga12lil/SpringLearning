@@ -17,9 +17,17 @@
     <spring-boot.version>3.0.1</spring-boot.version>
     <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
     <jetbrains-annotations.version>23.1.0</jetbrains-annotations.version>
+    <openapi-webmvc-ui-version>2.0.2</openapi-webmvc-ui-version>
+    <jooq-meta-extensions-liquibase.version>3.18.3</jooq-meta-extensions-liquibase.version>
+    <testcontainers.version>1.18.0</testcontainers.version>
   </properties>
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.jooq</groupId>
+        <artifactId>jooq-meta-extensions-liquibase</artifactId>
+        <version>${jooq-meta-extensions-liquibase.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
@@ -31,6 +39,18 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
         <version>${spring-boot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        <version>${openapi-webmvc-ui-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>testcontainers-bom</artifactId>
+        <version>${testcontainers.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>

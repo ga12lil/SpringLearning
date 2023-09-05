@@ -1,5 +1,6 @@
 package ga12;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -10,6 +11,9 @@ import ga12.configuration.ApplicationConfig;
 @EnableConfigurationProperties(ApplicationConfig.class)
 @EnableScheduling
 public class ScrapperApplication {
+
+
+
     public static void main(String[] args) {
         var ctx = SpringApplication.run(ScrapperApplication.class, args);
         ApplicationConfig config = ctx.getBean(ApplicationConfig.class);
